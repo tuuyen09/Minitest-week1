@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <input type="text" id="number" value="0">
+     <button type="button" onclick="up();">Up</button>
+     <button type="button" onclick="down();">Down</button>
+<script>
+    function up() {
+        let a = parseInt(document.getElementById('number').value);
+        document.getElementById('number').value = a + 2
+    }
+
+    function down() {
+        let a = parseInt(document.getElementById('number').value);
+        document.getElementById('number').value = a - 2
+    }
+</script>
+</body>
+</html>
